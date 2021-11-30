@@ -1,11 +1,8 @@
 {
-  "extends": [
-    "schedule:earlyMondays"
-  ],
   "enabledManagers": ["dockerfile"],
   "dockerfile": {
     "pinDigests": true,
-    "fileMatch": ["^Dockerfile$"]
+    "ignorePaths": ["bin/lambda/Dockerfile.nodejs14x"]
   },
   "packageRules": [
     {
