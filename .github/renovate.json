@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "schedule:earlyMondays"
+  ],
   "enabledManagers": ["dockerfile"],
   "dockerfile": {
     "pinDigests": true,
